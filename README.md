@@ -5,7 +5,7 @@ Datasets used:
 - CSIQ: http://vision.eng.shizuoka.ac.jp/mod/page/view.php?id=23
 - IVC: http://www2.irccyn.ec-nantes.fr/ivcdb/
 - JPEG XR: https://www.epfl.ch/labs/mmspg/research/page-58317-en-html/page-58332-en-html/page-58333-en-html/iqa/
-- KADID10k: http://database.mmsp-kn.de/kadid-10k-database.html
+- KADID-10k: http://database.mmsp-kn.de/kadid-10k-database.html
 - LIVE2: https://live.ece.utexas.edu/research/quality/subjective.htm
 - TID2013: http://www.ponomarenko.info/tid2013.htm
 
@@ -27,7 +27,7 @@ IVC:
 | SSIMULACRA  | **-0.789** |  -0.834 |  -0.64  |
 | Butteraugli | -0.607 |  -0.792 |  -0.595 |
 
-JPEGXR:
+JPEG XR:
 
 |             |   PLCC |   SROCC |   KROCC |
 |-------------|--------|---------|---------|
@@ -35,7 +35,7 @@ JPEGXR:
 | SSIMULACRA  | **-0.849** |  -0.84  |  -0.656 |
 | Butteraugli | -0.836 |  -0.878 |  -0.696 |
 
-KADID10K:
+KADID-10k:
 
 |             |   PLCC |   SROCC |   KROCC |
 |-------------|--------|---------|---------|
