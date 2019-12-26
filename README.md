@@ -9,102 +9,52 @@ Datasets used:
 - LIVE2: https://live.ece.utexas.edu/research/quality/subjective.htm
 - TID2013: http://www.ponomarenko.info/tid2013.htm
 
-## SROCC
+## Results
 
 CSIQ:
 
-|             |     dmos |
-|-------------|----------|
-| DSSIM       | **0.946151** |
-| SSIMULACRA  | 0.847857 |
-| Butteraugli | 0.902055 |
+|             |   PLCC |   SROCC |   KROCC |
+|-------------|--------|---------|---------|
+| DSSIM       |  **0.803** |   **0.946** |   **0.793** |
+| SSIMULACRA  |  0.793 |   0.848 |   0.644 |
+| Butteraugli |  0.767 |   0.902 |   0.722 |
 
 IVC:
 
-|             |       mos |
-|-------------|-----------|
-| DSSIM       | **-0.915765** |
-| SSIMULACRA  | -0.834436 |
-| Butteraugli | -0.79186  |
+|             |   PLCC |   SROCC |   KROCC |
+|-------------|--------|---------|---------|
+| DSSIM       | -0.758 |  **-0.916** |  **-0.748** |
+| SSIMULACRA  | **-0.789** |  -0.834 |  -0.64  |
+| Butteraugli | -0.607 |  -0.792 |  -0.595 |
 
-JPEG XR:
+JPEGXR:
 
-|             |       mos |
-|-------------|-----------|
-| DSSIM       | **-0.9035**   |
-| SSIMULACRA  | -0.840177 |
-| Butteraugli | -0.87797  |
+|             |   PLCC |   SROCC |   KROCC |
+|-------------|--------|---------|---------|
+| DSSIM       | -0.833 |  **-0.904** |  **-0.725** |
+| SSIMULACRA  | **-0.849** |  -0.84  |  -0.656 |
+| Butteraugli | -0.836 |  -0.878 |  -0.696 |
 
-KADID10k:
+KADID10K:
 
-|             |      dmos |
-|-------------|-----------|
-| DSSIM       | **-0.856177** |
-| SSIMULACRA  | -0.699555 |
-| Butteraugli | -0.735086 |
-
-LIVE2:
-
-|             |   dmos_new |
-|-------------|------------|
-| DSSIM       |   **0.95493**  |
-| SSIMULACRA  |   0.913573 |
-| Butteraugli |   0.899623 |
-
-TID2013:
-
-|             |       mos |
-|-------------|-----------|
-| DSSIM       | **-0.860908** |
-| SSIMULACRA  | -0.6733   |
-| Butteraugli | -0.760307 |
-
-## KROCC:
-
-CSIQ:
-
-|             |     dmos |
-|-------------|----------|
-| DSSIM       | **0.793231** |
-| SSIMULACRA  | 0.643923 |
-| Butteraugli | 0.721581 |
-
-IVC:
-
-|             |       mos |
-|-------------|-----------|
-| DSSIM       | **-0.748408** |
-| SSIMULACRA  | -0.640337 |
-| Butteraugli | -0.5951   |
-
-JPEG XR:
-
-|             |       mos |
-|-------------|-----------|
-| DSSIM       | **-0.725218** |
-| SSIMULACRA  | -0.655901 |
-| Butteraugli | -0.696149 |
-
-KADID10k:
-
-|             |      dmos |
-|-------------|-----------|
-| DSSIM       | **-0.67041**  |
-| SSIMULACRA  | -0.50757  |
-| Butteraugli | -0.545566 |
+|             |   PLCC |   SROCC |   KROCC |
+|-------------|--------|---------|---------|
+| DSSIM       | **-0.639** |  **-0.856** |  **-0.67**  |
+| SSIMULACRA  | -0.623 |  -0.7   |  -0.508 |
+| Butteraugli | -0.605 |  -0.735 |  -0.546 |
 
 LIVE2:
 
-|             |   dmos_new |
-|-------------|------------|
-| DSSIM       |   **0.813491** |
-| SSIMULACRA  |   0.740362 |
-| Butteraugli |   0.718279 |
+|             |   PLCC |   SROCC |   KROCC |
+|-------------|--------|---------|---------|
+| DSSIM       |  0.576 |   **0.955** |   **0.813** |
+| SSIMULACRA  |  **0.783** |   0.914 |   0.74  |
+| Butteraugli |  0.699 |   0.9   |   0.718 |
 
 TID2013:
 
-|             |       mos |
-|-------------|-----------|
-| DSSIM       | **-0.678464** |
-| SSIMULACRA  | -0.485133 |
-| Butteraugli | -0.571815 |
+|             |   PLCC |   SROCC |   KROCC |
+|-------------|--------|---------|---------|
+| DSSIM       | **-0.773** |  **-0.861** |  **-0.678** |
+| SSIMULACRA  | -0.663 |  -0.673 |  -0.485 |
+| Butteraugli | -0.648 |  -0.76  |  -0.572 |
