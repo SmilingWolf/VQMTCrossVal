@@ -1,5 +1,5 @@
 # VQMTCrossVal
-Cross validation for objective quality metric measurement tools on multiple public datasets
+Cross validation of objective quality metric measurement tools on multiple public datasets
 
 Datasets used:
 - CSIQ: http://vision.eng.shizuoka.ac.jp/mod/page/view.php?id=23
@@ -58,3 +58,53 @@ TID2013:
 | DSSIM       | **-0.860908** |
 | SSIMULACRA  | -0.6733   |
 | Butteraugli | -0.760307 |
+
+## KROCC:
+
+CSIQ:
+
+|             |     dmos |
+|-------------|----------|
+| DSSIM       | **0.793231** |
+| SSIMULACRA  | 0.643923 |
+| Butteraugli | 0.721581 |
+
+IVC:
+
+|             |       mos |
+|-------------|-----------|
+| DSSIM       | **-0.748408** |
+| SSIMULACRA  | -0.640337 |
+| Butteraugli | -0.5951   |
+
+JPEG XR:
+
+|             |       mos |
+|-------------|-----------|
+| DSSIM       | **-0.725218** |
+| SSIMULACRA  | -0.655901 |
+| Butteraugli | -0.696149 |
+
+KADID10k:
+
+|             |      dmos |
+|-------------|-----------|
+| DSSIM       | **-0.67041**  |
+| SSIMULACRA  | -0.50757  |
+| Butteraugli | -0.545566 |
+
+LIVE2:
+
+|             |   dmos_new |
+|-------------|------------|
+| DSSIM       |   **0.813491** |
+| SSIMULACRA  |   0.740362 |
+| Butteraugli |   0.718279 |
+
+TID2013:
+
+|             |       mos |
+|-------------|-----------|
+| DSSIM       | **-0.678464** |
+| SSIMULACRA  | -0.485133 |
+| Butteraugli | -0.571815 |
